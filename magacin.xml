@@ -1,1 +1,22 @@
-
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Magacin SYSTEM "magacinDTD.dtd">
+<Magacin xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com magacinXSD.xsd">
+  <Artikal>
+    <Naziv sifra="a">naziv1</Naziv>
+    <DatumIzrade>
+      <Dan>6</Dan>
+      <Mesec>5</Mesec>
+      <Godina>2020</Godina>
+    </DatumIzrade>
+    <Cena tip="eur">30</Cena>
+    <KompanijaProdavca>
+      <ImeKompanije>ime1</ImeKompanije>
+      <Adresa>adresa1</Adresa>
+      <Adresa>adresa2</Adresa>
+    </KompanijaProdavca>
+    <EmailProdavca tip="privatni">Anja1@gmail.com</EmailProdavca>
+    <EmailProdavca tip="sluzbeni">Anja2@gmail.com</EmailProdavca>
+  </Artikal>  
+</Magacin>
